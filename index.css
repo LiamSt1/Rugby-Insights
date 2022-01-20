@@ -1,0 +1,85 @@
+#mainTitle {
+    color: whitesmoke;    
+    size: 200%;
+    background-color: rgb(0,0,0);
+    text-align: center;
+    height: 100px;
+    letter-spacing: 7px;
+    padding-top: 20px;
+}
+
+#vidIntro {
+    border: solid;
+    width: 310px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+#firstHeadLines {
+    color: #000000;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    padding-left: 100px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+    
+#bodycolor {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    word-spacing: 2px;
+    
+}
+th, td {
+    color: ghostwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+table {
+    background-image: url('./photos/blackBackground.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
